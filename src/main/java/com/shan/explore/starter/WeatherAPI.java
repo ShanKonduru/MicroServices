@@ -15,9 +15,9 @@ public class WeatherAPI extends AbstractVerticle {
 
         vertx.createHttpServer()
                 .requestHandler(router)
-                .listen(8080, ar -> {
+                .listen(8888, ar -> {
                     if (ar.succeeded()) {
-                        System.out.println("Server started on port 8080");
+                        System.out.println("Server started on port 8888");
                     } else {
                         System.err.println("Failed to start server: " + ar.cause());
                     }
