@@ -1,4 +1,4 @@
-package com.shan.explore.starter;
+package com.shan.explore.weather.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -6,6 +6,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+
+import com.shan.explore.weather.WeatherAPI;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;

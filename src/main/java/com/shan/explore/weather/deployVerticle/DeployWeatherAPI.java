@@ -1,4 +1,6 @@
-package com.shan.explore.starter;
+package com.shan.explore.weather.deployVerticle;
+
+import com.shan.explore.weather.WeatherAPI;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;

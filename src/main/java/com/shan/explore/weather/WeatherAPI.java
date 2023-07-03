@@ -1,4 +1,4 @@
-package com.shan.explore.starter;
+package com.shan.explore.weather;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.ext.web.Router;
