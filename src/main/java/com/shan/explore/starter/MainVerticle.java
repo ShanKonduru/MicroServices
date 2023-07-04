@@ -11,7 +11,7 @@ public class MainVerticle extends AbstractVerticle {
       req.response()
           .putHeader("content-type", "text/plain")
           .end("Hello from Vert.x!");
-    }).listen(8888, http -> {
+    }).listen(8088, http -> {
       if (http.succeeded()) {
         startPromise.complete();
         System.out.println("HTTP server started on port 8888");
@@ -19,7 +19,7 @@ public class MainVerticle extends AbstractVerticle {
         startPromise.fail(http.cause());
       }
     });
-    /* 
+    /*
     Vertx vertx = Vertx.vertx();
     vertx.deployVerticle(new WeatherAPI());
     */
